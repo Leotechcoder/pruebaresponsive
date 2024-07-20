@@ -1,0 +1,26 @@
+:root{
+    --primary: #0a2ff1;
+    --varprimary: #04146c;
+    --varprimary2: #d6dbf5;
+}
+
+h1{
+    color: var(--primary);    
+}
+
+p{
+    color: var(--varprimary);
+}
+
+.button1{
+    background-color: var(--varprimary);
+    color: var(--varprimary2);
+    text-decoration: none;
+    width: clamp(150px, 250px, 320px);
+}
+.button2{
+    background-color: var(--varprimary2);
+    color: var(--varprimary);
+    text-decoration: none;
+    width: clamp(150px, 250px, 320px);
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: micolvetica;
+    src: url(/tipografias1/coolvetica\ rg.otf);
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: miroboto;
+    src: url(/tipografias1/Roboto-Light.ttf);
+    font-weight: 100 900;
+}
+
+h1{
+    font-family: micolvetica;
+    font-variation-settings: 'wght' 400;
+    font-size: clamp(2.8rem, 6em,5rem);
+    text-transform: capitalize;
+}
+
+p{
+    font-family: miroboto;
+    font-variation-settings: 'wght' 100;
+    font-size: clamp(1rem, 3em,2rem);
+}
+
+a{
+    font-family: miroboto;
+    font-variation-settings: 'wght' 400;
+    font-size: clamp(1rem, 1.2rem,2.5rem);
+}
